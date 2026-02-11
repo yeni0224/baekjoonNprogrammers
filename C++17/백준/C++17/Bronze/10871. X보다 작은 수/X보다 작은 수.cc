@@ -1,22 +1,12 @@
-#include <iostream>
-#include <vector>
-using namespace std;
-
-int main(void)
-{
-	int N, X;
-	std::cin >> N;
-	std::cin >> X;
-	vector<int> A(N);
-
-	for (int i = 0; i < N; i++)
-	{
-		std::cin >> A[i];
-		if (A[i] < X)
-		{
-			std::cout << A[i] << " ";
-		}
-	}
-
-	return 0;
-}
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
