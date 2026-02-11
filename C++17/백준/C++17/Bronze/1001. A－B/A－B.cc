@@ -1,15 +1,12 @@
-#include <iostream>
-using namespace std;
-
-int Sub(int a, int b)
-{
-    return a - b;
-}
-int main()
-{
-    int a, b;
-    cin >> a;
-    cin >> b;
-    cout << Sub(a, b);
-    return 0;
-}
+<html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
