@@ -1,0 +1,44 @@
+#include <iostream>
+
+constexpr int COUNT = 5; //다섯 개의 자연수가 주어질 때 
+
+void Sort(int arr[], const int size)
+{
+    int temp = 0;
+    // 배열을 인수로 받아 정렬해 봅시다.
+    for (int i = 0; i < size; i++)
+    {
+        for (int j = 0; j < size - i - 1; j++)
+        {
+            if (arr[j] > arr[j + 1])
+            {
+                temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+}
+
+int main()
+{
+    int arr[COUNT] = {};
+
+    int sum = 0;
+    for (int i = 0; i < COUNT; i++)
+    {
+        std::cin >> arr[i];
+        sum += arr[i];
+    }
+
+    Sort(arr, COUNT);
+
+    int avg = sum / COUNT;
+    int midIndex = COUNT / 2;
+
+    std::cout << avg << std::endl;
+    std::cout << arr[midIndex] << std::endl;
+
+
+    return 0;
+}
